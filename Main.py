@@ -927,7 +927,7 @@ class MyGame(arcade.Window): # 메인 클래스
         for i in range(1):
             self.platform.append(Platform.Platform("thunder",288+ (i*128),800, CHARACTER_SCALING * 0.5, fall = True,  die = True))
         for i in range(1):
-            self.platform.append(Platform.Platform("thunder",310+ ( (14 + i)*64),800, CHARACTER_SCALING * 0.5, fall = True,  die = True))
+            self.platform.append(Platform.Platform("thunder",358+ ( (14 + i)*64),800, CHARACTER_SCALING * 0.5, fall = True,  die = True))
         self.platform.append(Platform.Platform("thunder",1900,820, CHARACTER_SCALING, fall = True,  die = True))
 
         self.platform.append(Platform.Platform("bridgeA",400,930, CHARACTER_SCALING * 0.5,PLATFORM_MOVEMENT_SPEED*4, 400, 2200, hard_platform = True))
